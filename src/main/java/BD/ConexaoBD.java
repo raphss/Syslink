@@ -1,5 +1,6 @@
 package BD;
 
+// import java.nio.file.Paths; // import para gerar o instalador(.exe)
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -27,11 +28,21 @@ public class ConexaoBD {
         Connection conexao = null;
 
         try {
-
             String dbNome = "BDsyslink";
+
+            String dbUrl = "jdbc:h2:./src/main/resources/" + dbNome; // conexão na ide
+
             // String dbUrl = "jdbc:h2:./" + dbNome; // conexão para o .jar
-            String dbUrl = "jdbc:h2:./src/main/resources/" + dbNome;
-            // // conexão na ide
+
+            /*
+             * Conexão para gerar o instalador(.exe)
+             * 
+             * String caminhoDocumentos = Paths.get(System.getProperty("user.home"),
+             * "Documents").toString();
+             * String caminhoBancoDados = Paths.get(caminhoDocumentos, "Syslink",
+             * dbNome).toString();
+             * String dbUrl = "jdbc:h2:" + caminhoBancoDados;
+             */
 
             // Estabelece uma conexão com o banco de dados usando a URL, nome de usuário e
             // senha especificados
