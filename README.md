@@ -11,7 +11,7 @@
 
 ## Sobre o Projeto
 
-Uma aplicação que visa o gerenciamento de soluções para erros encontrados na plataforma Syslink. Desenvolvida em Java com interfaces gráficas utilizando Java Swing.
+Uma aplicação que visa o gerenciamento de soluções para erros encontrados na plataforma Syslink. Desenvolvida em Java com interfaces gráficas utilizando Java Swing, com acesso ao banco de dados (H2DB).
 
 ## Como Contribuir
 
