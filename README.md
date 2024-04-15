@@ -6,6 +6,7 @@
 
 <p align="center">
     <img src="syslink.png" alt="Syslink Desktop" width="600">
+    <img src="syslink2.png" alt="Syslink Desktop 2" width="600">
 </p>
 
 ## Sobre o Projeto
