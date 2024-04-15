@@ -29,8 +29,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 - Raphael Vilete - [raphvilete@gmail.com](mailto:raphvilete@gmail.com)
 
 <!-- Markdown link & img dfn's -->
-[url]: https://github.com/raphss/Syslink/raw/main/dist/Syslink.exe www.syslink.com.br
-[url-image]: https://img.shields.io/badge/Live_Website-blue
-
+[url]: https://github.com/raphss/Syslink/raw/main/dist/Syslink.exe
+[url-image]: https://img.shields.io/badge/Baixar_Aplicação-blue
 [url2]: https://www.syslink.com.br
-[url-image2]: https://img.shields.io/badge/Live_Website-green
+[url-image2]: https://img.shields.io/badge/Syslink_Website-green
